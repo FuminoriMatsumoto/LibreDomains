@@ -1,0 +1,26 @@
+{
+  "description": "szak.ciallo.de - 由配置生成器创建",
+  "subdomain": "szak",
+  "domain": "ciallo.de",
+  "owner": {
+    "name": "szak",
+    "github": "FuminoriMatsumoto",
+    "email": "baihaoyyds@outlook.com"
+  },
+  "records": [
+    {
+      "type": "CNAME",
+      "name": "szak",
+      "content": "cname.vercel-dns.com",
+      "ttl": 3600,
+      "proxied": false
+    },
+    {
+      "type": "TXT",
+      "name": "_vercel",
+      "content": "vc-domain-verify=szak.ciallo.de,eacfad7c2d186fe857fa",
+      "ttl": 3600,
+      "proxied": false
+    }
+  ]
+}
